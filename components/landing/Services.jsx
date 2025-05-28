@@ -5,7 +5,7 @@ import React from "react";
 function Services() {
   return (
     <section id="services" className="py-16 bg-gray-100">
-      <div className="container mx-auto">
+      <div className="container mx-auto px-4">
         <h2 className="text-3xl font-bold mb-4">Explore Our Services</h2>
         <hr className="w-[25%] h-1 bg-[var(--maincolor)] border-0" />
 
