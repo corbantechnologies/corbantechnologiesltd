@@ -65,7 +65,7 @@ function Navbar() {
                   Services
                 </Link>
               </li>
-              <li
+              {/* <li
                 className={
                   pathname === "#projects" ? "text-[var(--maincolor)]" : ""
                 }
@@ -73,7 +73,7 @@ function Navbar() {
                 <Link href="#projects" onClick={() => setIsOpen(false)}>
                   Projects
                 </Link>
-              </li>
+              </li> */}
               <li
                 className={
                   pathname === "#customers" ? "text-[var(--maincolor)]" : ""
