@@ -6,7 +6,7 @@ import React from "react";
 function Hero() {
   return (
     <section className="bg-black text-white bg-gradient-to-b from-black to-gray-900">
-      <div className="container mx-auto grid sm:grid-cols-2 gap-4 px-4 py-12 items-center ">
+      <div className="container mx-auto grid sm:grid-cols-2 gap-4 px-4 py-18 items-center ">
         <div>
           <h1 className="text-5xl font-bold mb-4">
             Empowering lives through innovation
