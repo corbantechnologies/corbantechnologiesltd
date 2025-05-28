@@ -17,10 +17,16 @@ function Hero() {
             solutions.
           </p>
           <div className="flex gap-4">
-            <Link href="/" className="bg-[var(--maincolor)] rounded-md p-2">
+            <Link
+              href="mailto:info@corbantechnologies.org"
+              target="_blank"
+              className="bg-[var(--maincolor)] rounded-md p-2"
+            >
               Let's Talk →
             </Link>
-            <button className="text-[var(--maincolor)]">Explore More →</button>
+            <Link href="#services" className="text-[var(--maincolor)]">
+              Explore More →
+            </Link>
           </div>
         </div>
 

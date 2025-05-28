@@ -86,7 +86,8 @@ function Navbar() {
               <li>
                 <Link
                   className="bg-[var(--maincolor)] rounded text-white py-2 px-2"
-                  href="/contact"
+                  href="mailto:info@corbantechnologies.org"
+                  target="_blank"
                   onClick={() => setIsOpen(false)}
                 >
                   Get Started
