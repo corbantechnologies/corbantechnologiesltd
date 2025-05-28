@@ -1,9 +1,14 @@
-import React from 'react'
+"use client";
+
+import Hero from "@/components/landing/Hero";
+import React from "react";
 
 function LandingPage() {
   return (
-    <div>LandingPage</div>
-  )
+    <>
+      <Hero />
+    </>
+  );
 }
 
-export default LandingPage
+export default LandingPage;

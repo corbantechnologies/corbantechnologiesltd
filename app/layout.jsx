@@ -1,3 +1,5 @@
+"use client";
+import Navbar from "@/components/general/Navbar";
 import "./globals.css";
 
 export default function RootLayout({ children }) {
@@ -11,7 +13,10 @@ export default function RootLayout({ children }) {
         />
         <link rel="icon" href="/favicon.ico" />
       </head>
-      <body>{children}</body>
+      <body>
+        <Navbar />
+        {children}
+      </body>
     </html>
   );
 }
