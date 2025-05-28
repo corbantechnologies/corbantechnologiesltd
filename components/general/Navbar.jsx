@@ -47,7 +47,7 @@ function Navbar() {
             } md:flex flex-col md:flex-row gap-4 absolute md:static top-16 left-0 w-full md:w-auto bg-white p-3 md:p-0 z-40`}
           >
             <ul className="flex flex-col md:flex-row gap-4">
-              <li
+              {/* <li
                 className={
                   pathname === "/about" ? "text-[var(--maincolor)]" : ""
                 }
@@ -55,31 +55,31 @@ function Navbar() {
                 <Link href="/about" onClick={() => setIsOpen(false)}>
                   About
                 </Link>
-              </li>
+              </li> */}
               <li
                 className={
-                  pathname === "/services" ? "text-[var(--maincolor)]" : ""
+                  pathname === "#services" ? "text-[var(--maincolor)]" : ""
                 }
               >
-                <Link href="/services" onClick={() => setIsOpen(false)}>
+                <Link href="#services" onClick={() => setIsOpen(false)}>
                   Services
                 </Link>
               </li>
               <li
                 className={
-                  pathname === "/projects" ? "text-[var(--maincolor)]" : ""
+                  pathname === "#projects" ? "text-[var(--maincolor)]" : ""
                 }
               >
-                <Link href="/projects" onClick={() => setIsOpen(false)}>
+                <Link href="#projects" onClick={() => setIsOpen(false)}>
                   Projects
                 </Link>
               </li>
               <li
                 className={
-                  pathname === "/customers" ? "text-[var(--maincolor)]" : ""
+                  pathname === "#customers" ? "text-[var(--maincolor)]" : ""
                 }
               >
-                <Link href="/customers" onClick={() => setIsOpen(false)}>
+                <Link href="#customers" onClick={() => setIsOpen(false)}>
                   Customers
                 </Link>
               </li>
