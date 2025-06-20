@@ -16,6 +16,27 @@ const customers = [
       "Developing the organization's web application",
     ],
   },
+  {
+    id: 2,
+    name: "IGCSE Learning Management Platform",
+    image: "/igcse.svg",
+    url: "https://learnwithmrpc.vercel.app/",
+    description: `An online platform for IGCSE students and educators, offering course management and assessment tools.`,
+    what_we_do: [
+      "Developed a comprehensive learning management system",
+      "Implemented course management features for educators",
+      "Integrated assessment tools for student evaluations",
+      "Ensured responsive design for accessibility on all devices",
+      "Provided ongoing support and updates to the platform",
+    ],
+  },
+  {
+    id: 3,
+    name: "LegioConnect Application",
+    image: "/legioconnect.svg",
+    url: "https://legioconnect.com",
+    description: `LegioConnect is a web application designed to streamline communication and collaboration for legal professionals. It offers features such as case management, document sharing, and secure messaging to enhance productivity and efficiency in legal practices.`,
+  }
 ];
 
 export { customers };
