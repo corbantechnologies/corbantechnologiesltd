@@ -26,7 +26,7 @@ function Customers() {
                 </p>
                 <h6 className="italic font-semibold mt-3">Our Contribution</h6>
                 <ul className="list-disc list-inside mb-3">
-                  {customer.what_we_do.map((item, index) => (
+                  {customer?.what_we_do?.map((item, index) => (
                     <li key={index}>{item}</li>
                   ))}
                 </ul>
@@ -40,8 +40,8 @@ function Customers() {
                 <Image
                   src={customer.image}
                   className="w-full rounded-md"
-                  width={500}
-                  height={500}
+                  width={400}
+                  height={400}
                   alt="customer"
                 />
               </div>
