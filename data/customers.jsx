@@ -1,21 +1,21 @@
 const customers = [
-  {
-    id: 1,
-    name: "Nafsi Reset",
-    image: "/nafsireset.svg",
-    url: "https://www.nafsireset.com",
-    description: `Founded in Kenya, Nafsi Reset is a pioneering mental health organization committed to making emotional and psychological well-being accessible, affordable, and stigma-free. Blending clinical therapy expertise with innovative technology, it aims to reach underserved communities that often face barriers to mental health support.`,
-    what_we_do: [
-      "Built and maintain an easy-to-use website that works on all devices",
-      "Designed their logo, business cards, invoices, and email templates",
-      "Created a consistent brand look and feel",
-      "Handle online advertising, search engine visibility, and their Google business profile",
-      "Simplified their appointment booking process and set up secure cloud storage",
-      "Manage all their technology needs",
-      "Keep their website running smoothly and fast",
-      "Building a new web app to expand their services",
-    ],
-  },
+  // {
+  //   id: 1,
+  //   name: "Nafsi Reset",
+  //   image: "/nafsireset.svg",
+  //   url: "https://www.nafsireset.com",
+  //   description: `Founded in Kenya, Nafsi Reset is a pioneering mental health organization committed to making emotional and psychological well-being accessible, affordable, and stigma-free. Blending clinical therapy expertise with innovative technology, it aims to reach underserved communities that often face barriers to mental health support.`,
+  //   what_we_do: [
+  //     "Built and maintain an easy-to-use website that works on all devices",
+  //     "Designed their logo, business cards, invoices, and email templates",
+  //     "Created a consistent brand look and feel",
+  //     "Handle online advertising, search engine visibility, and their Google business profile",
+  //     "Simplified their appointment booking process and set up secure cloud storage",
+  //     "Manage all their technology needs",
+  //     "Keep their website running smoothly and fast",
+  //     "Building a new web app to expand their services",
+  //   ],
+  // },
   {
     id: 2,
     name: "IGCSE Learning Management Platform",

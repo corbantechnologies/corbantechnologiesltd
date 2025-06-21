@@ -17,7 +17,7 @@ function Customers() {
           {customers?.map((customer) => (
             <div
               key={customer.id}
-              className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-8"
+              className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-8 mb-4"
             >
               <div>
                 <h4 className="text-2xl font-semibold mb-2">{customer.name}</h4>
