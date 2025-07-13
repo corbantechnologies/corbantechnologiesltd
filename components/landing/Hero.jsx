@@ -16,7 +16,7 @@ function Hero() {
             homes and businesses, driving growth and efficiency through smart
             solutions.
           </p>
-          <div className="flex gap-4">
+          <div className="flex items-center gap-4">
             <Link
               href="mailto:info@corbantechnologies.org"
               target="_blank"
