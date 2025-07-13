@@ -72,7 +72,7 @@ function Customers() {
                         rel="noopener noreferrer"
                         className="flex items-center"
                       >
-                        Visit {customer.name}
+                        Explore
                         <ExternalLink className="ml-2 w-4 h-4 group-hover:translate-x-1 transition-transform" />
                       </a>
                     </Button>
@@ -96,14 +96,14 @@ function Customers() {
         </div>
 
         {/* Call to Action */}
-        <div className="text-center mt-16">
+        {/* <div className="text-center mt-16">
           <p className="text-muted-foreground mb-6">
             Ready to join our list of satisfied customers?
           </p>
           <Button size="lg" className="bg-primary hover:bg-primary/90">
             Get Started Today
           </Button>
-        </div>
+        </div> */}
       </div>
     </section>
   );
